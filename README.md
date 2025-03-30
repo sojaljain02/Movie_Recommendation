@@ -1,2 +1,2 @@
 # Movie_Recommendation
-An user friendly movie recommendation system
+A user friendly movie recommendation system

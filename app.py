@@ -611,7 +611,7 @@ try:
 
     with col1:
         st.markdown("""
-        <div style="position: relative; border-radius: 20px; overflow: hidden; box-shadow: 0 20px 40px rgba(0,0,0,0.2);" class="hover-scale">
+        <div style="position: relative; border-radius: 20px; overflow: hidden; margin-top:12rem; box-shadow: 0 20px 40px rgba(0,0,0,0.2);" class="hover-scale">
         """, unsafe_allow_html=True)
         st.image(selected_poster, use_container_width=True)
         st.markdown('</div>', unsafe_allow_html=True)

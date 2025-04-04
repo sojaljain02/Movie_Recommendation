@@ -583,8 +583,8 @@ with header_col2:
 
 # Load movies data
 try:
-    movies = pickle.load(open('model/movie_list.pkl', 'rb'))
-    similarity = pickle.load(open('model/similarity.pkl', 'rb'))
+    movies = pickle.load(open('movie_list.pkl', 'rb'))
+    similarity = pickle.load(open('similarity.pkl', 'rb'))
     movie_list = movies['title'].values
 except Exception as e:
     st.error(f"Error loading movie data: {e}")
